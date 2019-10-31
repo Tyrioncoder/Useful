@@ -16,4 +16,9 @@ Making script in Linux( bash Linux )
       ./file.sh
 
 
-Making
+shell- terminal interacting with computer through cmds
+
+bash- interpreter for linux.
+!/bin/bash
+
+script - list of cmds on shell to automate the process
