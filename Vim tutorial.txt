@@ -1,0 +1,13 @@
+:qw - save and quit
+:!q - force quit discard changes
+:x - save and  quit
+
+in command mode:
+
+    dd- delete the line
+
+Copy and paste-
+
+  select word with mouse
+  enter- Copy
+  paste- double click
