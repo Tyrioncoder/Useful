@@ -11,3 +11,11 @@ Copy and paste-
   select word with mouse
   enter- Copy
   paste- double click
+
+
+searching in vim
+  /pattern
+
+  press enter
+  n- to forward search
+  N- backward searching
