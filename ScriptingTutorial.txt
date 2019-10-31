@@ -1,0 +1,19 @@
+Making batch file in windows:
+  1. write script in the notepad
+  2. save as .bat
+  3. run it
+  4. use @echo OFF and pause at two top and bottom
+
+
+Making script in Linux( bash Linux )
+  1. open file from vi
+  2.  ! bin/bash
+      print("hi")
+
+  3. save it as .sh
+  4. run it
+      chmod +x file.sh
+      ./file.sh
+
+
+Making
