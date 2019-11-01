@@ -1,0 +1,7 @@
+
+  grep "pattern" file1.txt file2.txt ...... -- normal search
+
+  grep "pattern" * -> wild card, search for all files
+   -i -> for case insensitive
+   -n -> for line number
+   -v -> invert search, all lines dont containing pattern
