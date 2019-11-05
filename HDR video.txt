@@ -1,0 +1,25 @@
+hdr depends upon
+  luminance
+  bit depth
+  dynamic range
+  color space
+
+luminance - how bright device can emit . Candela/m2 or nits. Indorr lcd- 120 nits. laptops- 400 nits
+
+crt displays - 100 nits. and std DR video( white point) was also calibrated to 100 nits
+
+DR partally depends on contrast ratio 1000:1 types.
+
+Color space- Rec709/ sRGB
+
+  Rec 2020 > DCI P3( apple's ) > sRGB
+
+  HDR uses 10 bit depth
+
+  Our eyes - Can see difference in low light more and after certain brightness threshold, merely perceives any difference. 
+
+  On the other hand, camera is opposite. Very low amount of data in low light ( 4 bits to represent) and high data bits in bright light( 128 bits). This is linear response( given voltage to perceived bright)
+
+  So gamma curve brings that linear response to how we actually see by opposing it ( bringing the perceived brightness to low so that eyes can see more)
+
+  displays again uses gamma curve to make into liner again( maybe)

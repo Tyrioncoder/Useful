@@ -1,0 +1,38 @@
+
+to tackle blown highlights and noisy dark and hand shakes due to long exposures, hdr+ takes series of burst shot
+
+Low light shots----
+  noise
+  blurry due to hand shake and even long exposures
+
+  solution-
+    take burst shots of small exposures. Take average of those frames pixel by pixel to reduce noise
+
+    short exposure reduces blur.
+
+    hdr+ starts aligning frames by taking single sharpest frame from the burst.
+
+
+HDR bright light shots--
+
+  take diff exposure images.
+
+  Problems-
+    highlights blown and dark regions noisy
+    aligning creates ghost images, double images and artifacts.
+
+    solution--
+      take same exposure images of short exposure time.
+      it avoids blown highlights and average them to reduce noise. Then software boost the shadows
+
+      and since all photos are similar, aligning is easy and robust.
+
+
+
+In demosaic process, camera is taking around 70-80% of sensor resolution. If sensor can shift by one pixel and take multiple shots, we can get whole r,g,b value of pixel thus increasing the resolution. Some cameras do but works best on stationary scene
+
+Apple Deep fusion-
+  takes 9 shots before we press shutter. 4 fast exposures , 4 secondary shots and 1 long exposure.
+
+  fast exposure- for details in texture etc.
+  long exposure- to reduce  noise and take color inf fromm it
